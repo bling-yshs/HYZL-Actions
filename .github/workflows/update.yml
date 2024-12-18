@@ -19,7 +19,7 @@ jobs:
         run: |
           echo ${{ github.event.inputs.content }}
           echo --------------------
-          python .github/scripts/update.py ${{ github.event.inputs.content }}
+          python .github/scripts/release-announcement.py ${{ github.event.inputs.content }}
       # 提交更新后的文件
       - name: commit files
         run: |
@@ -30,7 +30,7 @@ jobs:
           git commit -m "$commit_message"
           git push
         continue-on-error: true
-        
+
       # 触发sync-to-gitee workflow
       - name: Trigger sync-to-gitee workflow
         uses: peter-evans/repository-dispatch@v2
