@@ -33,7 +33,6 @@ jobs:
 
       # 触发sync-to-gitee workflow
       - name: Trigger sync-to-gitee workflow
-        uses: peter-evans/repository-dispatch@v2
+        uses: peter-evans/repository-dispatch@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           event-type: sync-to-gitee

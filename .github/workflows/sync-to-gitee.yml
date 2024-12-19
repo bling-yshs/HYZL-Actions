@@ -2,7 +2,7 @@ name: sync-to-gitee
 run-name: '同步到 Gitee'
 on:
   repository_dispatch:
-    types: sync-to-gitee
+    types: [sync-to-gitee]
 
 jobs:
   sync:
