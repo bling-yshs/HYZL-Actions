@@ -33,7 +33,7 @@ jobs:
 #        continue-on-error: true
 
       # 触发sync-to-gitee workflow
-      - name: Trigger sync-to-gitee workflow
+      - name: 触发 同步到 Gitee (Trigger sync-to-gitee)
         uses: peter-evans/repository-dispatch@v3
         with:
           event-type: sync-to-gitee
