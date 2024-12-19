@@ -1,5 +1,11 @@
 [
   {
+    "version": 16,
+    "content": "这是一条测试公告",
+    "timestamp": 1734572634,
+    "deprecated": false
+  },
+  {
     "version": 15,
     "content": "公告测试",
     "timestamp": 1734571627,
