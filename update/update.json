@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.88",
+    "url": "https://gitee.com/bling_yshs/HYZL-Actions/raw/main/release/v0.2.88/HYZL.exe",
+    "md5": "4705182ccdb793f06fc503dd08a9e790",
+    "timestamp": 1734572485,
+    "changelog": "- 🐝 refactor: 迁移更新文件到Gitee 070b500 @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.87",
     "url": "https://gitee.com/bling_yshs/HYZL-Actions/raw/main/release/v0.2.87/HYZL.exe",
     "md5": "8ea7010e787926339f6295fd1efa3004",
