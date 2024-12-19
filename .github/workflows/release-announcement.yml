@@ -1,4 +1,5 @@
 name: 📢 发布启动器公告
+run-name: 📢 发布启动器公告
 on:
   workflow_dispatch:
     inputs:
