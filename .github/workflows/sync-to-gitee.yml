@@ -1,5 +1,4 @@
-name: sync-to-gitee
-run-name: '同步到 Gitee'
+name: 🔄 同步到 Gitee
 on:
   repository_dispatch:
     types: [sync-to-gitee]
@@ -8,10 +7,10 @@ jobs:
   sync:
     runs-on: ubuntu-22.04
     steps:
-      - name: checkout
+      - name: 克隆当前仓库 (Clone current repo)
         uses: actions/checkout@v4
 
-      - name: Sync to gitee
+      - name: 同步到 Gitee (Sync to Gitee)
         uses: Yikun/hub-mirror-action@master
         with:
           src: github/bling-yshs

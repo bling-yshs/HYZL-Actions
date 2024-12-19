@@ -1,0 +1,30 @@
+name: 🚀 发布更新 json
+on:
+  repository_dispatch:
+    types: [ release-update-json ]
+
+jobs:
+  update:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: 克隆当前仓库 (Clone current repo)
+        uses: actions/checkout@v4
+
+      - name: 安装依赖 (Install Dependencies)
+        run: pip install requests
+
+      - name: 更新 update.json (Update update.json)
+        run: python .github/scripts/release-update-json.py "${{ github.event.client_payload.version }}" "${{ github.event.client_payload.changelog }}"
+
+      - name: 提交文件 (Commit files)
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m ${{ github.event.client_payload.version }}
+          git push
+
+      - name: 触发 🔄 同步到 Gitee (Trigger sync-to-gitee)
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          event-type: sync-to-gitee

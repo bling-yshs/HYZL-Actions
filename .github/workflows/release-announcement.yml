@@ -1,7 +1,5 @@
-name: release-announcement
-run-name: '发布启动器公告'
+name: 📢 发布启动器公告
 on:
-  push:
   workflow_dispatch:
     inputs:
       content:
@@ -11,29 +9,27 @@ on:
 
 jobs:
   update:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
-      - name: checkout
+      - name: 克隆当前仓库 (Clone current repo)
         uses: actions/checkout@v4
-      # 执行.github/scripts/update.cjs脚本
-#      - name: run update script
-#        run: |
-#          echo ${{ github.event.inputs.content }}
-#          echo --------------------
-#          python .github/scripts/release-announcement.py ${{ github.event.inputs.content }}
-#      # 提交更新后的文件
-#      - name: commit files
-#        run: |
-#          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-#          git config --local user.name "github-actions[bot]"
-#          git add announcement.json
-#          commit_message=$(echo "${{ github.event.inputs.content }}" | cut -c1-10)
-#          git commit -m "$commit_message"
-#          git push
-#        continue-on-error: true
 
-      # 触发sync-to-gitee workflow
-      - name: 触发 同步到 Gitee (Trigger sync-to-gitee)
+      - name: 生成公告 (Generate announcement)
+        run: |
+          echo ${{ github.event.inputs.content }}
+          echo --------------------
+          python .github/scripts/release-announcement.py ${{ github.event.inputs.content }}
+
+      - name: 提交文件 (Commit files)
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          commit_message=$(echo "${{ github.event.inputs.content }}" | cut -c1-10)
+          git commit -m "$commit_message"
+          git push
+
+      - name: 触发 🔄 同步到 Gitee (Trigger sync-to-gitee)
         uses: peter-evans/repository-dispatch@v3
         with:
           event-type: sync-to-gitee
