@@ -1,5 +1,11 @@
 [
   {
+    "version": 15,
+    "content": "公告测试",
+    "timestamp": 1734571627,
+    "deprecated": false
+  },
+  {
     "version": 14,
     "content": "新的签名已经找到了，忘记和大家说了，更新启动器就好",
     "timestamp": 1726535434,
