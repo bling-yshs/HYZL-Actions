@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.89",
+    "url": "https://gitee.com/bling_yshs/HYZL-Actions/raw/main/release/v0.2.89/HYZL.exe",
+    "md5": "eb898a4411f71d0a07cf2ca1d9354cd5",
+    "timestamp": 1738298892,
+    "changelog": "- 🐞 fix: 删除设置签名API时对icqq版本的检查 2b91b0b @bling-yshs",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.88",
     "url": "https://gitee.com/bling_yshs/HYZL-Actions/raw/main/release/v0.2.88/HYZL.exe",
     "md5": "4705182ccdb793f06fc503dd08a9e790",
