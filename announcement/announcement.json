@@ -1,5 +1,11 @@
 [
   {
+    "version": 17,
+    "content": "喵喵插件没法更新的，请更新启动器，然后选择bug修复-",
+    "timestamp": 1740794126,
+    "deprecated": false
+  },
+  {
     "version": 16,
     "content": "这是一条测试公告",
     "timestamp": 1734572634,
