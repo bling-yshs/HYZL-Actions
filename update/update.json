@@ -4,7 +4,7 @@
     "url": "https://gitee.com/bling_yshs/HYZL-Actions/raw/main/release/v0.2.90/HYZL.exe",
     "md5": "7bca5837db252669b7817a36ae5ee1e4",
     "timestamp": 1740881411,
-    "changelog": "无\n",
+    "changelog": "添加\"BUG修复 -> 喵喵插件无法更新(将喵喵插件切换成 Github 地址)\"",
     "deprecated": false
   },
   {
