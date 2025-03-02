@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.90",
+    "url": "https://gitee.com/bling_yshs/HYZL-Actions/raw/main/release/v0.2.90/HYZL.exe",
+    "md5": "7bca5837db252669b7817a36ae5ee1e4",
+    "timestamp": 1740881411,
+    "changelog": "无\n",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.89",
     "url": "https://gitee.com/bling_yshs/HYZL-Actions/raw/main/release/v0.2.89/HYZL.exe",
     "md5": "eb898a4411f71d0a07cf2ca1d9354cd5",
