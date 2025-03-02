@@ -19,7 +19,7 @@ jobs:
         run: |
           echo ${{ github.event.inputs.content }}
           echo --------------------
-          python .github/scripts/release-announcement.py ${{ github.event.inputs.content }}
+          python .github/scripts/release-announcement.py "${{ github.event.inputs.content }}"
 
       - name: 提交文件 (Commit files)
         run: |
