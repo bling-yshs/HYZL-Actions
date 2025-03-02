@@ -1,6 +1,7 @@
 name: 🔄 同步到 Gitee
 run-name: 🔄 同步到 Gitee
 on:
+  workflow_dispatch:
   repository_dispatch:
     types: [ sync-to-gitee ]
 
