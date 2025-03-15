@@ -1,5 +1,11 @@
 [
   {
+    "version": 19,
+    "content": "喵喵插件或者逍遥插件无法更新的，请更新启动器，然后查看启动器内的BUG修复选项",
+    "timestamp": 1742042130,
+    "deprecated": false
+  },
+  {
     "version": 18,
     "content": "喵喵插件没法更新的，请更新启动器，然后选择bug修复->修复喵喵插件无法更新",
     "timestamp": 1740880304,
