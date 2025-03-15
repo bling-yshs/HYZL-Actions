@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.91",
+    "url": "https://gitee.com/bling_yshs/HYZL-Actions/raw/main/release/v0.2.91/HYZL.exe",
+    "md5": "1208028824e5c937bde50d55707094de",
+    "timestamp": 1742042027,
+    "changelog": "- 🐞 fix: 提供逍遥插件无法更新的BUG修复 c5dced6 @bling-yshs\n",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.90",
     "url": "https://gitee.com/bling_yshs/HYZL-Actions/raw/main/release/v0.2.90/HYZL.exe",
     "md5": "7bca5837db252669b7817a36ae5ee1e4",
