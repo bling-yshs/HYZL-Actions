@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.92",
+    "url": "https://gitee.com/bling_yshs/HYZL-Actions/raw/main/release/v0.2.92/HYZL.exe",
+    "md5": "0f8ab99c9d66244d5010392e41f24fd6",
+    "timestamp": 1742219903,
+    "changelog": "- 🌟 feat: 提供「设置签名API以后提示45版本过低」的修复 4b3b75a @bling-yshs\n",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.91",
     "url": "https://gitee.com/bling_yshs/HYZL-Actions/raw/main/release/v0.2.91/HYZL.exe",
     "md5": "1208028824e5c937bde50d55707094de",
