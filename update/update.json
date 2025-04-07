@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.93",
+    "url": "https://gitee.com/bling_yshs/HYZL-Actions/raw/main/release/v0.2.93/HYZL.exe",
+    "md5": "c5bcdb32d89d61d7053e95076c587235",
+    "timestamp": 1744024324,
+    "changelog": "- 🌟 feat: 更新插件安装逻辑，修复插件依赖安装问题并更新部分插件的GitHub地址 88d839b @bling-yshs\n",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.92",
     "url": "https://gitee.com/bling_yshs/HYZL-Actions/raw/main/release/v0.2.92/HYZL.exe",
     "md5": "0f8ab99c9d66244d5010392e41f24fd6",
