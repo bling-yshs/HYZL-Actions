@@ -1,5 +1,11 @@
 [
   {
+    "version": 20,
+    "content": "签名API全部拉闸了，等修复吧",
+    "timestamp": 1746873743,
+    "deprecated": false
+  },
+  {
     "version": 19,
     "content": "喵喵插件或者逍遥插件无法更新的，请更新启动器，然后查看启动器内的BUG修复选项",
     "timestamp": 1742042130,
