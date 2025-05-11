@@ -1,5 +1,11 @@
 [
   {
+    "version": 21,
+    "content": "如果着急的可以查看此教程，使用napcat进行连接，miao-yunzai切换为trss-yunzai只需运行node trss.js，然后重装依赖 https://github.com/bling-yshs/trss-yunzai-napcat-guide",
+    "timestamp": 1746981358,
+    "deprecated": false
+  },
+  {
     "version": 20,
     "content": "签名API全部拉闸了，等修复吧",
     "timestamp": 1746873743,
