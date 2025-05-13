@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.94",
+    "url": "https://gitee.com/bling_yshs/HYZL-Actions/raw/main/release/v0.2.94/HYZL.exe",
+    "md5": "fea33497106af2b80ff734305ed5b5cf",
+    "timestamp": 1747116995,
+    "changelog": "- 🌟 feat: 添加使用napcat连接云崽的教程链接 7ab3d4a @bling-yshs\n",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.93",
     "url": "https://gitee.com/bling_yshs/HYZL-Actions/raw/main/release/v0.2.93/HYZL.exe",
     "md5": "c5bcdb32d89d61d7053e95076c587235",
