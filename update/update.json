@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.2.96",
+    "url": "https://gitee.com/bling_yshs/HYZL-Actions/raw/main/release/v0.2.96/HYZL.exe",
+    "md5": "cb40643da95a7e6aafe1934ba17c69f6",
+    "timestamp": 1748421440,
+    "changelog": "- 🐞 fix: 修复强制更新无法在trss使用 0a9e3c6 @bling-yshs\n",
+    "deprecated": false
+  },
+  {
     "version": "v0.2.94",
     "url": "https://gitee.com/bling_yshs/HYZL-Actions/raw/main/release/v0.2.94/HYZL.exe",
     "md5": "fea33497106af2b80ff734305ed5b5cf",
