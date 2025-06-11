@@ -1,5 +1,11 @@
 [
   {
+    "version": 22,
+    "content": "如果云崽提示 Promise.withResolvers 错误，请升级node版本，下载地址 https://nodejs.org/dist/v22.16.0/node-v22.16.0-x64.msi 或者去视频简介的网盘",
+    "timestamp": 1749617665,
+    "deprecated": false
+  },
+  {
     "version": 21,
     "content": "如果着急的可以查看此教程，使用napcat进行连接，miao-yunzai切换为trss-yunzai只需运行node trss.js，然后重装依赖 https://github.com/bling-yshs/trss-yunzai-napcat-guide",
     "timestamp": 1746981358,
